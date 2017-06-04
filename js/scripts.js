@@ -2,8 +2,10 @@ var a =  prompt('podaj wartość a');
 var b =  prompt('podaj wartość b');
 var equalingResult = (a * a) + (2 * a * b) - (b * b);
 
-alert ('wynik równania dla a = ' + a + ' i b = ' + b + ' jest równy: ' + equalingResult);
-console.log('wynik równania dla a: ' + a + ' i b: ' + b + ' is equal to: ' + equalingResult);
+if (equalingResult == 0) {
+alert ('wynik równania dla a = ' + a + ' i b = ' + b + ' jest równy 0');
+console.log('wynik równania dla a: ' + a + ' i b: ' + b + 'jest równy 0');
+}
 
 if (equalingResult > 0) { 
 alert ('wynik równania jest dodatni');
